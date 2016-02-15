@@ -27,6 +27,8 @@ Got any new ideas? Let us know!
 
 **jdm_remove_script_version()** - This function removes all those irritating `?v=1234` from enqued resources. They make browser caching difficult and you just don't need them.
 
+**is_post_type()** - Checks if the given post type is currently being displayed.
+
 **the_shorter_title()** - When page/post titles get CRAZY long, echo this function in your template to truncate the file length to a set charactor length. Uses WordPress' `get_the_title()` and a little math logic.
 
 **mainsite_url()** - Use this function in your parent/child themes to keep using the root theme file location. That's handy for performance to load `yoursite.com/wp-content/themes/mytheme/js/scripts.js` instead of `subdomain.yoursite.com/wp-content/themes/mytheme/js/scripts.js` when these files are actually identical. Use `get_mainsite_url()` to return rather than echo the result.
